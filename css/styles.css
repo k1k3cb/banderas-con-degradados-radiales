@@ -1,0 +1,61 @@
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	background-color: gray;
+	width: 46.875rem;
+	height: 23.75rem;
+	margin-left: auto;
+	margin-right: auto;
+	border: 5px solid rgb(120, 19, 19);
+	/* text-align: center;
+    padding-top: 0.625rem; */
+}
+
+.flag {
+	display: inline-block;
+	border: 3px solid white;
+	width: calc(100% / 3 - 10px);
+	height: calc(100% / 2 - 10px);
+}
+
+.flag-1 {
+	background-image: radial-gradient(
+		50px,
+		#bc002d 100px,
+		rgb(255, 255, 255) 100px
+	);
+}
+
+.flag-2 {
+	background-image: radial-gradient(
+		50px at 80px 85px,
+		#ffde00 100px,
+		#4aadd6 100px
+	);
+}
+
+.flag-3 {
+	background-image:radial-gradient(40px, white 70px, transparent 70px), linear-gradient(#ce1126 25%, #002868 25% 75%, #ce1126 75%)
+		;
+}
+
+.flag-4 {
+	position: relative;
+    left: 239px;
+
+	background-image: radial-gradient(
+		circle at 120px 177px,
+        #333333 40px,
+		red 40px 50px,
+		orange 50px 60px,
+		yellow 60px 70px,
+		green 70px 80px,
+        blue 80px 90px,
+        #4b0082 90px 100px,
+        #ee82ee 100px 110px,
+        #333333 110px
+
+	);
+}
